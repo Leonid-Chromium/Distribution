@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DistributionLib">
+      <HintPath>D:\File\GitHub\DistributionLib\DistributionLib\DistributionLib\bin\Debug\net5.0\DistributionLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
