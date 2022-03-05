@@ -11,8 +11,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="ConvertExpressionLib">
+      <HintPath>..\..\..\ConvertExpressionLib\ConvertExpressionLib\ConvertExpressionLib\bin\Debug\net5.0\ConvertExpressionLib.dll</HintPath>
+    </Reference>
     <Reference Include="DistributionLib">
       <HintPath>D:\File\GitHub\DistributionLib\DistributionLib\DistributionLib\bin\Debug\net5.0\DistributionLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLLib">
+      <HintPath>..\..\..\SQLLib\SQLLib\bin\Debug\net5.0\SQLLib.dll</HintPath>
     </Reference>
   </ItemGroup>
 
